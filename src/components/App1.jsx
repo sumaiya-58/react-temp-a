@@ -1,3 +1,8 @@
 export default function App1(){
-    return <div><h1>this is app1</h1></div>;
+    return (
+        <div>
+        <h3>this is app</h3>
+        <p style={{backgroundColor:'pink',color:'blue'}}>this is paragraph</p>
+        </div>
+    );
 }
